@@ -1,2 +1,2 @@
 # git_test
-Lets see how easy this is on Windows
+Let's see how easy this is on Windows

@@ -1,6 +1,10 @@
 Hello from Windows!
 What happens if I make changes while in the staging area?
 Now I have this file both as staged and as modified. Interesting.
-And VS code can show me the changes between those two versions of the file.
-VS code is awesome!
+And VS Code can show me the changes between those two versions of the file.
+VS Code is awesome!
 Windows is stupid. I would like my lines to end with LF, thank you very much.
+
+And now, hello from Linux!
+This is much better. At least for this sort of things.
+And VS Code is still awesome!

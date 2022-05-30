@@ -8,3 +8,5 @@ Windows is stupid. I would like my lines to end with LF, thank you very much.
 And now, hello from Linux!
 This is much better. At least for this sort of things.
 And VS Code is still awesome!
+
+Time to learn about branching and merging!

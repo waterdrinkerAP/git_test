@@ -10,3 +10,4 @@ This is much better. At least for this sort of things.
 And VS Code is still awesome!
 
 What am I supposed to do now?
+Oh yeah, learn about branching and merging.

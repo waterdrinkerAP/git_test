@@ -9,5 +9,8 @@ And now, hello from Linux!
 This is much better. At least for this sort of things.
 And VS Code is still awesome!
 
+Hello from the office!
+I need to learn more than just the basics of git.
+
 What am I supposed to do now?
 Oh yeah, learn about branching and merging.

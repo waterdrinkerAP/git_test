@@ -14,3 +14,5 @@ I need to learn more than just the basics of git.
 
 What am I supposed to do now?
 Oh yeah, learn about branching and merging.
+
+I don't like rebasing.

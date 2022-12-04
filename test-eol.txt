@@ -27,3 +27,4 @@ Damn it! I have to figure out how to fix that.
 Maybe if I enable autocrlf?
 Okay, I give up. I have no idea how to do this.
 I will just return the settings to how they were.
+And do the manuver one final time.

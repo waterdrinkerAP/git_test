@@ -19,3 +19,4 @@ What about rebasing? Is rebasing a good idea?
 I don't like rebasing.
 
 Tiny change to test how autocrlf works.
+Another tiny change to test how autocrlf works.

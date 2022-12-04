@@ -17,3 +17,5 @@ Oh yeah, learn about branching and merging.
 
 What about rebasing? Is rebasing a good idea?
 I don't like rebasing.
+
+Tiny change to test how autocrlf works.

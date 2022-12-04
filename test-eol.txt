@@ -5,3 +5,8 @@ When committing and pushing line endings are still LF.
 When pulling from Linux line endings are still LF.
 After pulling from Windows line endings change to CRLF.
 Let's see what will happen if I push the file now.
+When pulling from Linux again line endigs are LF.
+So autocrlf=true converts line endings to CRLF when pulling in Windows
+but then converts them back to LF when pushing.
+Interesting!
+What if I want Windows to also use LF?

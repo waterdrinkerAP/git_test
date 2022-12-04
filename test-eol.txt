@@ -24,3 +24,4 @@ Let me try just one more thing.
 Nope, I was wrong.
 You can infact push a file with CRLF and then pull it with CRLF.
 Damn it! I have to figure out how to fix that.
+Maybe if I enable autocrlf?

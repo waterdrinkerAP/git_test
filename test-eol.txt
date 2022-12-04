@@ -15,3 +15,5 @@ but a different unchanged file still has CRLF endings.
 What will happen if I change it around a bit?
 Okay, what if I set autocrlf=false and eol=crlf?
 So far nothing has changed.
+And after pulling on Windows nothing has changed.
+Strange.

@@ -1,3 +1,5 @@
 This is a simple text file.
 Here I will test how git handles line endings with different settings.
 When created this file has it's line endings set as LF.
+When commiting and pushing line endings are still LF.
+When pulling from Linux line endings are still LF.

@@ -18,4 +18,6 @@ So far nothing has changed.
 And after pulling on Windows nothing has changed.
 Strange.
 So I am guessing that unless you have autocrlf=true
-you will never pull a file with CRLF line endigns?
+you will never pull a file with CRLF line endings?
+Yep that seems to be the case.
+Let me try just one more thing.

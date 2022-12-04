@@ -21,3 +21,6 @@ So I am guessing that unless you have autocrlf=true
 you will never pull a file with CRLF line endings?
 Yep that seems to be the case.
 Let me try just one more thing.
+Nope, I was wrong.
+You can infact push a file with CRLF and then pull it with CRLF.
+Damn it! I have to figure out how to fix that.

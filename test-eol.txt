@@ -17,3 +17,5 @@ Okay, what if I set autocrlf=false and eol=crlf?
 So far nothing has changed.
 And after pulling on Windows nothing has changed.
 Strange.
+So I am guessing that unless you have autocrlf=true
+you will never pull a file with CRLF line endigns?

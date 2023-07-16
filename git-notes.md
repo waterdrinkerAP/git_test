@@ -52,7 +52,7 @@ git config --list --show-origin
 To easily push code to GitHub we need to generate an `SSH` key:
 
 ```shell
-ssh-keygen -t ed25519 -C <youremail>
+ssh-keygen -t ed25519 -C <your email>
 ```
 
 In our GitHub account's `Settings > SSH and GPG keys` add the `New SSH Key`:
@@ -126,7 +126,7 @@ GitHub uses `main` for their default branches.
 To connect a local repository to a remote one use:
 
 ```shell
-git remote add origin <url_addres>
+git remote add origin <url_address>
 ```
 
 When we  `cd` into the repository folder we can check it's origin by typing:
@@ -146,7 +146,7 @@ git status
 
 ```shell
  M README  # M stands for modified file
-MM Rakefile  # Left M is status of staging area, right is working tree
+MM Makefile  # Left M is status of staging area, right is working tree
 A  lib/git.rb # A stands for added to staging area
 ?? LICENSE.txt # ?? is a new file that is not tracked
 ```
@@ -157,8 +157,8 @@ Mark new and recently changed files for a commit by adding them to the staging a
 git add <file_name>
 ```
 
-We don't need to add all the changes made to a file to the staging area. We can go over the
-chunks of changes and chose what to add with:
+We don't need to add all the changes made to a file to the staging area.
+We can go over the chunks of changes and chose what to add with:
 
 ```shell
 git add -p <file_name>
@@ -235,7 +235,7 @@ For more information on `--pretty` and its values check the [book](https://git-s
 When removing or renaming files it is faster to use git commands:
 
 ```shell
-git rm  # Rmove
+git rm  # Remove
 git mv  # Move/Rename
 ```
 
@@ -322,8 +322,8 @@ https://cbea.ms/git-commit/
 Every commit in Git contains data about itself (size, author, committer, message) and two
 pointers. A pointer to a snapshot of the content that was staged at the time of the commit
 and a pointer to the previous commit. Branches are just named pointers to a commit.
-When we first create a repository there is only one branch called `main` that points to the
-latest commit.  We can create a new branch by using:
+When we first create a repository there is only one branch called `main` that points to
+the latest commit.  We can create a new branch by using:
 
 ```shell
 git branch <name_of_branch>
@@ -373,8 +373,8 @@ git log --graph --all
 ```
 
 
-`HEAD` can point to a branch or to a specific commit. When `HEAD` is not pointing to a branch
-we are in a state of "detached HEAD". When detaching the head we need to use the
+`HEAD` can point to a branch or to a specific commit. When `HEAD` is not pointing to a
+branch we are in a state of "detached HEAD". When detaching the head we need to use the
 `checkout` command, the `switch` command works only with branches. To make `HEAD`
 point to a specific commit we need the first 7 characters of a commit's SHA. For example:
 
@@ -396,8 +396,8 @@ git checkout main
 git merge new_branch
 ```
 
-If the commit at `new_branch` is a direct descendent of the one `main` is pointing at, then 
-`main` will simply be fast-forwarded to point to the new commit.
+If the commit at `new_branch` is a direct descendent of the one `main` is pointing at,
+then `main` will simply be fast-forwarded to point to the new commit.
 
 Before merge:
 
@@ -440,8 +440,8 @@ commit 1 ← commit 2 ← commit 4 ← commit 5
 ```
 
 However if the two branches introduce different changes to the same files, there might
-be conflicts. After Git detects the conflicts, all we have to do is open the files in any editor
-and chose how to deal with them.
+be conflicts. After Git detects the conflicts, all we have to do is open the files in any
+editor and chose how to deal with them.
 
 Changes will look like this:
 

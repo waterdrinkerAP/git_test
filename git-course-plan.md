@@ -88,6 +88,13 @@ git config --global core.editor "code --wait"
 git config --global color.ui auto
 ```
 
+```shell
+git config --global user.name "Вашите Имена" 
+git config --global user.email вашиятАкаунт@technologica.com 
+git config --global diff.tool vscode 
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE' 
+```
+
 Списък с настройките и тяхната локация се извежда с команда:
 
 ```shell
